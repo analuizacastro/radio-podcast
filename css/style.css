@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: #191414;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #1db954;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 240px;
+}
+
+#divContent {
+  margin-top: 24px;
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 436px;
+  height: 280px;
+}
+
+#inputFrequency {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid rgb(210, 214, 214);
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 100px auto;
+  width: 1000px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.podcast-image {
+  width: 500px;
+  margin-left: 64px;
+}
+
+.flex-box {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.podcast-notfound {
+  width: 220px;
+  height: 220px;
+}
+
+.podcast-img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}

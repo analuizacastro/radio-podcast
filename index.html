@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Podcast Radio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="podcast">
+        <h1>Podcast Radio</h1>
+        <h2>Listen to your favorites podcasts.</h2>
+        <div>
+          <input id="inputFrequency" type="text" value="87.5" disabled />
+        </div>
+        <div class="flex-box">
+          <span>87.5</span>
+          <input
+            type="range"
+            name=""
+            id="inputRange"
+            min="87.5"
+            max="108"
+            value="87.5"
+            step="0.1"
+          />
+          <span>108</span>
+        </div>
+        <div id="divContent">
+          <p>No podcast found on this frequency.</p>
+          <img class="podcast-notfound" src="/img/undraw_Taken_if77.svg" />
+        </div>
+      </div>
+      <img
+        class="podcast-image"
+        src="/img/undraw_meditating_0nae.svg"
+        alt="Listen Podcast"
+      />
+    </div>
+    <script src="js/podcasts.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
