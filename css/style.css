@@ -54,7 +54,8 @@ input {
 
 .podcast-image {
   width: 500px;
-  margin-left: 64px;
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 .flex-box {
